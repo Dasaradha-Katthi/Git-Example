@@ -1,0 +1,28 @@
+{
+    "_id" : ObjectId("69a0681af08082091e174c52"),
+    "tenantId" : "mhc",
+    "requestId" : "9d25ec07-f75a-5952-8685-46726684710c",
+    "input" : {
+        "sourceData" : "{\"resourceType\":\"Coverage\",\"id\":\"WI-HWIK24291001311-MD\",\"meta\":{\"lastUpdated\":\"2026-02-26T06:45:59.6265804-08:00\",\"source\":\"QNXT\",\"profile\":[\"http://hl7.org/fhir/us/carin/StructureDefinition/carin-bb-coverage\"]},\"identifier\":[{\"use\":\"official\",\"type\":{\"text\":\"Health Plan ID\"},\"system\":\"http://terminology.hl7.org/CodeSystem/v2-0203\",\"value\":\"0003496273\",\"period\":{\"start\":\"2025-01-01T00:00:00-08:00\",\"end\":\"2025-12-31T00:00:00-08:00\"},\"assigner\":{\"reference\":\"Organization/WI-QMXIC1026\"}},{\"use\":\"official\",\"type\":{\"text\":\"ENROLLID\"},\"system\":\"http://terminology.hl7.org/CodeSystem/v2-0203\",\"value\":\"WI-HWIK24291001311\",\"period\":{\"start\":\"2025-01-01T00:00:00-08:00\",\"end\":\"2025-12-31T00:00:00-08:00\"},\"assigner\":{\"reference\":\"Organization/WI-QMXIC1026\"}},{\"use\":\"official\",\"type\":{\"text\":\"HEAD OF HOUSE\"},\"system\":\"http://terminology.hl7.org/CodeSystem/v2-0203\",\"value\":\"0002287808\",\"assigner\":{\"reference\":\"Organization/WI-QMXIC1026\"}}],\"status\":\"cancelled\",\"type\":{\"text\":\"HMO : Health Managed Organization\"},\"policyHolder\":{\"reference\":\"Patient/WI-WIM20346183082-MD\"},\"subscriber\":{\"reference\":\"Patient/WI-WIM20346183082-MD\"},\"subscriberId\":\"0002287808\",\"beneficiary\":{\"reference\":\"Patient/WI-WIM21191000002-MD\"},\"relationship\":{\"text\":\"SPOUSE : Beneficiary is the Spouse\"},\"period\":{\"start\":\"2025-01-01T00:00:00-08:00\",\"end\":\"2025-12-31T00:00:00-08:00\"},\"payor\":[{\"reference\":\"Organization/WI-QMXIC1026\"}],\"class\":[{\"type\":{\"text\":\"Plan\"},\"value\":\"52697WI0010002\",\"name\":\"Z - 2025 - WI Silver 1\"}],\"subrogation\":false}",
+        "collection" : [
+
+        ]
+    },
+    "response" : "[{\"errorCode\":\"REFERENCE_VALIDATION\",\"errorMessage\":\"UnprocessableEntityException: Resource Reference : Patient/WI-WIM20346183082-MD Not found\",\"errorStackTrace\":\"ca.uhn.fhir.rest.server.exceptions.UnprocessableEntityException: Resource Reference : Patient/WI-WIM20346183082-MD Not found\\n\\tat com.cognizant.interop.ingestion.transformer.RecordTransformer.cleanseRecord(RecordTransformer.java:385)\\n\\tat com.cognizant.interop.ingestion.transformer.RecordTransformer.transformRecord(RecordTransformer.java:168)\\n\\tat com.cognizant.interop.ingestion.transformer.RecordTransformer.processTransform(RecordTransformer.java:124)\\n\\tat com.cognizant.interop.ingestion.model.RecordTask.call(RecordTask.java:65)\\n\\tat com.cognizant.interop.ingestion.model.RecordTask.call(RecordTask.java:23)\\n\\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\\n\\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\\n\\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\\n\\tat java.lang.Thread.run(Thread.java:750)\\n\"}]",
+    "sourceSystem" : "QNXT",
+    "userName" : "system",
+    "clientIPAddress" : "main",
+    "uriPath" : "/app/mount/interop-data/ingestion/9d25ec07-f75a-5952-8685-46726684710c/MolinaWI_QNXT_Patient_20262602073020/MolinaWI_QNXT_Coverage_20260226064600/MolinaWI_QNXT_Coverage_20260226064600-01.split.ndjson",
+    "resourceType" : "Coverage",
+    "maxCountPerFile" : NumberLong(0),
+    "actualCountPerFile" : NumberLong(0),
+    "status" : "ERROR",
+    "parentId" : "40506c0d-eb6c-575a-84b4-35beb1073ffa",
+    "sourceId" : "WI-HWIK24291001311-MD",
+    "creationTime" : ISODate("2026-02-26T15:34:44.737+0000"),
+    "lastModifiedTime" : ISODate("2026-02-26T15:34:49.739+0000"),
+    "lineNo" : "2",
+    "compositeKey" : "mhc,9d25ec07-f75a-5952-8685-46726684710c,40506c0d-eb6c-575a-84b4-35beb1073ffa",
+    "compositeKey1" : "mhc,40506c0d-eb6c-575a-84b4-35beb1073ffa",
+    "_class" : "com.cognizant.interop.ingestion.data.entity.AuditItem"
+}

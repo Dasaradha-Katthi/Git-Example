@@ -1,0 +1,302 @@
+2026-02-06 11:02:29|[https-jsse-nio-0.0.0.0-28443-exec-190]|DEBUG|o.g.jersey.logging.LoggingFeature|d5463548-ae61-4d9b-8ded-3e755fa6eaf3|||||192796 * Server has received a request on thread https-jsse-nio-0.0.0.0-28443-exec-190
+192796 > GET https://pem04wuapp01g.tzf.cognizant.com/v2/eligibility/patient/MEM00001561225/detail?productcategory=Medical&coveragestartdate=01%2F01%2F2026&coverageenddate=11%2F30%2F2035&includeHandicapStatus=true&includeStudentStatus=true&includePayerInfo=true&groupId=SP00000000036&groupName=013-ADVENTIST+HEALTH+CORPORATE+OFFICE&productType=Medical
+192796 > accept: application/json
+192796 > accept-encoding: gzip, deflate, br, zstd
+192796 > accept-language: en-US,en;q=0.9
+192796 > authorization: Bearer 631ea534-bc06-4990-b3d6-0633caab1db4
+192796 > connection: Keep-Alive
+192796 > content-length: 0
+192796 > cookie: org.gluu.i18n.Locale=en; _gid=GA1.2.1806201912.1770369764; __utmc=179328244; __utmz=179328244.1770369764.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); session_state=0b6d60c28df6d3fef6dd7e25fb440c684a6218be894470e68421bd3fd21511d4.6247931f-d50d-418c-86d6-4c7d487ecb01; opbs=6475b46d-b083-4b2a-81a1-b5267e941cfd; current_sessions=["c8f72bd5-1f19-4137-ba4c-434160925787"]; session_id=c8f72bd5-1f19-4137-ba4c-434160925787; __utma=179328244.2027441354.1761298953.1770369764.1770374347.2; __utmt_UA-92105184-2=1; __utmt_UA-92105184-3=1; __utmb=179328244.6.10.1770374347; _ga_5JVVJ335T9=GS2.1.s1770374343$o4$g1$t1770375454$j38$l0$h0; _ga=GA1.2.2027441354.1761298953; _gat_UA-92105184-1=1; _ga_J1975LPX58=GS2.2.s1770374343$o4$g1$t1770375749$j60$l0$h0
+192796 > host: pem04wuapp01g.tzf.cognizant.com:28443
+192796 > referer: https://ah.healthtranzform.com/tzf/provider/uiprovider/
+192796 > sec-ch-ua: "Not)A;Brand";v="8", "Chromium";v="138", "Microsoft Edge";v="138"
+192796 > sec-ch-ua-mobile: ?0
+192796 > sec-ch-ua-platform: "Windows"
+192796 > sec-fetch-dest: empty
+192796 > sec-fetch-mode: cors
+192796 > sec-fetch-site: same-origin
+192796 > traceparent: 00-6985ca4500000000438d3b079ffd14ad-3a2212753301b14a-00
+192796 > tracestate: dd=s:-1;t.tid:6985ca4500000000
+192796 > user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0
+192796 > x-client-context-info: {"tzfrolecategory":"CSR","tzftenanttimezone":"PST8PDT","tzftenanttimeformat":"MM/dd/yyyy HH:mm:ss","roleCategory":"[CSR]","tzftenantdateformat":"MM/dd/yyyy","userType":"PROVIDER"}
+192796 > x-client-id: provider
+192796 > x-datadog-parent-id: 4188930897984205130
+192796 > x-datadog-sampling-priority: -1
+192796 > x-datadog-tags: _dd.p.tid=6985ca4500000000
+192796 > x-datadog-trace-id: 4867611676192347309
+192796 > x-domain-name: ah.healthtranzform.com
+192796 > x-forwarded-host: ah.healthtranzform.com,ah.healthtranzform.com
+192796 > x-forwarded-port: 443,443
+192796 > x-forwarded-prefix: /tzf/provider/service/provider-controller
+192796 > x-forwarded-proto: https,https
+192796 > x-header-05: EP20240719132823070
+192796 > x-header-06: en-US
+192796 > x-remote-addr: 138.91.248.223
+192796 > x-user-context-info: {"sub":"VjLzVo31725oT_Vi5BsgOZhATeiyh6d57uPmdf7Bqfo","tzflocaleid":"en-US","tzftenantenrollmentid":"CSR1","tzfclientipaddress":"138.91.248.223","tzftenantid":"ahw","tzfcommonid":"EP20240719132823070","tzfproviderid":"EP20240719132823070","tzfforusername":"Keerthana2103","tzfcorelationid":"c1a9e9a2-2e5e-4694-a857-c4693150013a","tzfroles":"CSR","tzfusertype":["MEMBER","PROVIDER"],"tzfforuserroles":"OfficeManager","tzfusername":"User7@ahw.com","tzfuserstatus":"Active","tzftenantuuid":"bd60382e-c2aa-11e9-9cb5-2a2ae2dbcce4"}
+192796 > x-user-name: User7@ahw.com
+
+2026-02-06 11:02:29|[https-jsse-nio-0.0.0.0-28443-exec-190]|DEBUG|c.c.t.f.m.c.utils.SpringContext|c1a9e9a2-2e5e-4694-a857-c4693150013a|provider-controller|provider|ahw|User7@ahw.com/Keerthana2103|7374227596480878859|NA|NA|NA|URI - v2/eligibility/patient/MEM00001561225/detail called by User7@ahw.com:138.91.248.223 for Keerthana2103with authorities  CSR
+2026-02-06 11:02:30|[https-jsse-nio-0.0.0.0-28443-exec-192]|DEBUG|o.g.jersey.logging.LoggingFeature|56ba8e4d-b28f-4a11-a218-f41d24d34d8f|||||192797 * Server has received a request on thread https-jsse-nio-0.0.0.0-28443-exec-192
+192797 > GET https://pem04wuapp01g.tzf.cognizant.com:28443/v1/provider/config?name=FilterDentalProviderNetworkID
+192797 > accept: */*
+192797 > connection: keep-alive
+192797 > host: pem04wuapp01g.tzf.cognizant.com:28443
+192797 > traceparent: 00-6985ca43000000007ca0ec97446ae1d6-13c969f7f0cff71c-00
+192797 > tracestate: dd=s:-1;t.tid:6985ca4300000000
+192797 > user-agent: Java/1.8.0_451
+192797 > x-client-context-info: {"tzfrolecategory":"PROVIDER","tzftenanttimezone":"PST8PDT","tzftenanttimeformat":"MM/dd/yyyy HH:mm:ss","roleCategory":"[PROVIDER]","tzftenantdateformat":"MM/dd/yyyy","userType":"PROVIDER"}
+192797 > x-client-id: provider
+192797 > x-datadog-parent-id: 1425787270657472284
+192797 > x-datadog-sampling-priority: -1
+192797 > x-datadog-tags: _dd.p.tid=6985ca4300000000
+192797 > x-datadog-trace-id: 8980437791408841174
+192797 > x-header-06: en-US
+192797 > x-user-context-info: {"sub":"Hv1iwL3KsahBYbZrw3zqAH1f81lvX2teDt1raEzjnsc","tzfinternaluserid":"EP20251117185249066","tzflocaleid":"en-US","tzfclientipaddress":"143.244.47.59","tzftenantid":"ahw","tzfcommonid":"EP20251117185249066","tzfpasswordhistory":["9d272fdb150ec97b26d5272fbf8afaef0a48f44525755fd5304ae1276212f4af"],"tzfproviderid":"EP20251117185249066","tzfforusername":"LROBERSON","tzfcorelationid":"840682c2-0ac5-4248-b3ad-96f2800f44a8","tzfroles":"OfficeManager","tzfusertype":["PROVIDER"],"tzfusername":"LROBERSON","tzfuserstatus":"active","tzftenantuuid":"bd60382e-c2aa-11e9-9cb5-2a2ae2dbcce4"}
+192797 > x-user-name: LROBERSON
+
+2026-02-06 11:02:30|[https-jsse-nio-0.0.0.0-28443-exec-192]|DEBUG|c.c.t.f.m.c.utils.SpringContext|840682c2-0ac5-4248-b3ad-96f2800f44a8|provider-controller|provider|ahw|LROBERSON/LROBERSON|5917477890015300738|NA|NA|NA|URI - v1/provider/config called by LROBERSON:143.244.47.59 for LROBERSONwith authorities  OfficeManager
+2026-02-06 11:02:30|[https-jsse-nio-0.0.0.0-28443-exec-190]|INFO |c.c.t.p.m.p.s.BenefitsAllInOneSVC|c1a9e9a2-2e5e-4694-a857-c4693150013a|provider-controller|provider|ahw|User7@ahw.com/Keerthana2103|===============Setting coverageEndDate as asOfDate ======================
+2026-02-06 11:02:30|[https-jsse-nio-0.0.0.0-28443-exec-190]|DEBUG|feign.template.Template|c1a9e9a2-2e5e-4694-a857-c4693150013a|provider-controller|provider|ahw|User7@ahw.com/Keerthana2103|Explicit slash decoding specified, decoding all slashes in uri
+2026-02-06 11:02:30|[https-jsse-nio-0.0.0.0-28443-exec-190]|DEBUG|feign.template.Template|c1a9e9a2-2e5e-4694-a857-c4693150013a|provider-controller|provider|ahw|User7@ahw.com/Keerthana2103|Explicit slash decoding specified, decoding all slashes in uri
+2026-02-06 11:02:30|[https-jsse-nio-0.0.0.0-28443-exec-190]|DEBUG|feign.template.Template|c1a9e9a2-2e5e-4694-a857-c4693150013a|provider-controller|provider|ahw|User7@ahw.com/Keerthana2103|Explicit slash decoding specified, decoding all slashes in uri
+2026-02-06 11:02:30|[https-jsse-nio-0.0.0.0-28443-exec-190]|DEBUG|feign.template.Template|c1a9e9a2-2e5e-4694-a857-c4693150013a|provider-controller|provider|ahw|User7@ahw.com/Keerthana2103|Explicit slash decoding specified, decoding all slashes in uri
+2026-02-06 11:02:30|[https-jsse-nio-0.0.0.0-28443-exec-190]|DEBUG|feign.template.Template|c1a9e9a2-2e5e-4694-a857-c4693150013a|provider-controller|provider|ahw|User7@ahw.com/Keerthana2103|Explicit slash decoding specified, decoding all slashes in uri
+2026-02-06 11:02:30|[https-jsse-nio-0.0.0.0-28443-exec-190]|DEBUG|feign.template.Template|c1a9e9a2-2e5e-4694-a857-c4693150013a|provider-controller|provider|ahw|User7@ahw.com/Keerthana2103|Explicit slash decoding specified, decoding all slashes in uri
+2026-02-06 11:02:30|[https-jsse-nio-0.0.0.0-28443-exec-190]|DEBUG|feign.template.Template|c1a9e9a2-2e5e-4694-a857-c4693150013a|provider-controller|provider|ahw|User7@ahw.com/Keerthana2103|Explicit slash decoding specified, decoding all slashes in uri
+2026-02-06 11:02:30|[https-jsse-nio-0.0.0.0-28443-exec-190]|DEBUG|feign.template.Template|c1a9e9a2-2e5e-4694-a857-c4693150013a|provider-controller|provider|ahw|User7@ahw.com/Keerthana2103|Explicit slash decoding specified, decoding all slashes in uri
+2026-02-06 11:02:30|[https-jsse-nio-0.0.0.0-28443-exec-190]|DEBUG|c.c.t.p.m.p.g.r.p.PatientSearchEP|c1a9e9a2-2e5e-4694-a857-c4693150013a|provider-controller|provider|ahw|User7@ahw.com/Keerthana2103|[PatientSearchEP#getMemberDetailsV2] ---> GET http://mspatientsearch/v2/member/MEM00001561225/detail?asofdate=11/30/2035&includeHandicapStatus=true&includeStudentStatus=true&includePayerInfo=true&groupId=SP00000000036&groupName=013-ADVENTIST%20HEALTH%20CORPORATE%20OFFICE&productType=Medical HTTP/1.1
+2026-02-06 11:02:30|[https-jsse-nio-0.0.0.0-28443-exec-190]|DEBUG|c.c.t.p.m.p.g.r.p.PatientSearchEP|c1a9e9a2-2e5e-4694-a857-c4693150013a|provider-controller|provider|ahw|User7@ahw.com/Keerthana2103|[PatientSearchEP#getMemberDetailsV2] x-client-context-info: {"tzfrolecategory":"CSR","tzftenanttimezone":"PST8PDT","tzftenanttimeformat":"MM/dd/yyyy HH:mm:ss","roleCategory":"[CSR]","tzftenantdateformat":"MM/dd/yyyy","userType":"PROVIDER"}
+2026-02-06 11:02:30|[https-jsse-nio-0.0.0.0-28443-exec-190]|DEBUG|c.c.t.p.m.p.g.r.p.PatientSearchEP|c1a9e9a2-2e5e-4694-a857-c4693150013a|provider-controller|provider|ahw|User7@ahw.com/Keerthana2103|[PatientSearchEP#getMemberDetailsV2] x-client-id: provider
+2026-02-06 11:02:30|[https-jsse-nio-0.0.0.0-28443-exec-190]|DEBUG|c.c.t.p.m.p.g.r.p.PatientSearchEP|c1a9e9a2-2e5e-4694-a857-c4693150013a|provider-controller|provider|ahw|User7@ahw.com/Keerthana2103|[PatientSearchEP#getMemberDetailsV2] x-header-06: en-US
+2026-02-06 11:02:30|[https-jsse-nio-0.0.0.0-28443-exec-190]|DEBUG|c.c.t.p.m.p.g.r.p.PatientSearchEP|c1a9e9a2-2e5e-4694-a857-c4693150013a|provider-controller|provider|ahw|User7@ahw.com/Keerthana2103|[PatientSearchEP#getMemberDetailsV2] x-user-context-info: {"sub":"VjLzVo31725oT_Vi5BsgOZhATeiyh6d57uPmdf7Bqfo","tzflocaleid":"en-US","tzftenantenrollmentid":"CSR1","tzfclientipaddress":"138.91.248.223","tzftenantid":"ahw","tzfcommonid":"EP20240719132823070","tzfproviderid":"EP20240719132823070","tzfforusername":"Keerthana2103","tzfcorelationid":"c1a9e9a2-2e5e-4694-a857-c4693150013a","tzfroles":"CSR","tzfusertype":["MEMBER","PROVIDER"],"tzfforuserroles":"OfficeManager","tzfusername":"User7@ahw.com","tzfuserstatus":"Active","tzftenantuuid":"bd60382e-c2aa-11e9-9cb5-2a2ae2dbcce4"}
+2026-02-06 11:02:30|[https-jsse-nio-0.0.0.0-28443-exec-190]|DEBUG|c.c.t.p.m.p.g.r.p.PatientSearchEP|c1a9e9a2-2e5e-4694-a857-c4693150013a|provider-controller|provider|ahw|User7@ahw.com/Keerthana2103|[PatientSearchEP#getMemberDetailsV2] x-user-name: User7@ahw.com
+2026-02-06 11:02:30|[https-jsse-nio-0.0.0.0-28443-exec-190]|DEBUG|c.c.t.p.m.p.g.r.p.PatientSearchEP|c1a9e9a2-2e5e-4694-a857-c4693150013a|provider-controller|provider|ahw|User7@ahw.com/Keerthana2103|[PatientSearchEP#getMemberDetailsV2] ---> END HTTP (0-byte body)
+2026-02-06 11:02:30|[https-jsse-nio-0.0.0.0-28443-exec-195]|DEBUG|o.g.jersey.logging.LoggingFeature|e0426f1d-51c0-438d-9ecc-092c82c2a99b|||||192798 * Server has received a request on thread https-jsse-nio-0.0.0.0-28443-exec-195
+192798 > GET https://pem04wuapp01g.tzf.cognizant.com/v1/quicklinks/favourite
+192798 > accept: application/json
+192798 > accept-encoding: gzip, deflate, br, zstd
+192798 > accept-language: en-US,en;q=0.9
+192798 > authorization: Bearer bd0f1ca7-db24-418d-8388-64fe244163e1
+192798 > connection: Keep-Alive
+192798 > content-length: 0
+192798 > cookie: __utmz=179328244.1768130144.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); org.gluu.i18n.Locale=en; __utmc=179328244; session_state=3dbd4860b6501313d667899a222f2b57d311250adeef72293157ac5358e0d838.1fdc2557-bd07-45de-bd11-715ac5e214ad; opbs=2a08861c-8141-4df9-85b7-f9828f612e48; current_sessions=["898a1664-780f-4e0a-9d08-e2564b759e2f"]; session_id=898a1664-780f-4e0a-9d08-e2564b759e2f; _ga_5JVVJ335T9=GS2.1.s1770375738$o13$g0$t1770375738$j60$l0$h0; _ga=GA1.2.1936418398.1768130142; _gid=GA1.2.1162181227.1770375739; _gat_gtag_UA_92105184_2=1; _gat_UA-92105184-1=1; __utma=179328244.1936418398.1768130142.1770282058.1770375740.13; __utmt_UA-92105184-2=1; __utmt_UA-92105184-3=1; __utmb=179328244.2.10.1770375740; _ga_J1975LPX58=GS2.2.s1770375740$o10$g0$t1770375740$j60$l0$h0; _dd_s=rum=2&id=f8b00567-ceec-4a31-92b7-4e94249b74cc&created=1770375739007&expire=1770376650223
+192798 > host: pem04wuapp01g.tzf.cognizant.com:28443
+192798 > referer: https://ah.healthtranzform.com/tzf/provider/uiprovider/
+192798 > sec-ch-ua: "Not(A:Brand";v="8", "Chromium";v="144", "Google Chrome";v="144"
+192798 > sec-ch-ua-mobile: ?0
+192798 > sec-ch-ua-platform: "Windows"
+192798 > sec-fetch-dest: empty
+192798 > sec-fetch-mode: cors
+192798 > sec-fetch-site: same-origin
+192798 > traceparent: 00-6985ca460000000075fd5643702c94bd-5abf68053c781ba1-01
+192798 > tracestate: dd=t.dm:-3;t.tid:6985ca4600000000
+192798 > user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+192798 > x-client-context-info: {"tzfrolecategory":"PROVIDER","tzftenanttimezone":"PST8PDT","tzftenanttimeformat":"MM/dd/yyyy HH:mm:ss","roleCategory":"[PROVIDER]","tzftenantdateformat":"MM/dd/yyyy","userType":"PROVIDER"}
+192798 > x-client-id: provider
+192798 > x-datadog-parent-id: 6539059555663879073
+192798 > x-datadog-sampling-priority: 2
+192798 > x-datadog-tags: _dd.p.dm=-3,_dd.p.tid=6985ca4600000000
+192798 > x-datadog-trace-id: 8502046519190131901
+192798 > x-domain-name: ah.healthtranzform.com
+192798 > x-forwarded-host: ah.healthtranzform.com,ah.healthtranzform.com
+192798 > x-forwarded-port: 443,443
+192798 > x-forwarded-prefix: /tzf/provider/service/provider-controller
+192798 > x-forwarded-proto: https,https
+192798 > x-header-06: en-US
+192798 > x-remote-addr: 143.244.47.59
+192798 > x-user-context-info: {"sub":"Hv1iwL3KsahBYbZrw3zqAH1f81lvX2teDt1raEzjnsc","tzfinternaluserid":"EP20251117185249066","tzflocaleid":"en-US","tzfclientipaddress":"143.244.47.59","tzftenantid":"ahw","tzfcommonid":"EP20251117185249066","tzfpasswordhistory":["9d272fdb150ec97b26d5272fbf8afaef0a48f44525755fd5304ae1276212f4af"],"tzfproviderid":"EP20251117185249066","tzfforusername":"LROBERSON","tzfcorelationid":"c6453db6-3833-4c20-819c-125372fa047d","tzfroles":"OfficeManager","tzfusertype":["PROVIDER"],"tzfusername":"LROBERSON","tzfuserstatus":"active","tzftenantuuid":"bd60382e-c2aa-11e9-9cb5-2a2ae2dbcce4"}
+192798 > x-user-name: LROBERSON
+
+2026-02-06 11:02:30|[https-jsse-nio-0.0.0.0-28443-exec-195]|DEBUG|c.c.t.f.m.c.utils.SpringContext|c6453db6-3833-4c20-819c-125372fa047d|provider-controller|provider|ahw|LROBERSON/LROBERSON|455762602863740279|NA|NA|NA|URI - v1/quicklinks/favourite called by LROBERSON:143.244.47.59 for LROBERSONwith authorities  OfficeManager
+2026-02-06 11:02:31|[https-jsse-nio-0.0.0.0-28443-exec-192]|DEBUG|o.s.data.mongodb.core.MongoTemplate|840682c2-0ac5-4248-b3ad-96f2800f44a8|provider-controller|provider|ahw|LROBERSON/LROBERSON|find using query: { "attributes.tenantId" : "ahw", "attributes.name" : { "$in" : ["FilterDentalProviderNetworkID"]}} fields: Document{{attributes.values=1, attributes.name=1}} for class: class com.cognizant.tranzform.provider.ms.providercontroller.domain.TenantConfiguration in collection: TenantConfiguration
+2026-02-06 11:02:31|[https-jsse-nio-0.0.0.0-28443-exec-192]|DEBUG|o.g.jersey.logging.LoggingFeature|840682c2-0ac5-4248-b3ad-96f2800f44a8|||||192797 * Server responded with a response on thread https-jsse-nio-0.0.0.0-28443-exec-192
+192797 < 200
+192797 < Content-Type: application/json
+[{"name":"FilterDentalProviderNetworkID","values":[{"attributeName":"DentalProviderNetworkIDs","attributeValue":[]}]},{"name":"FilterDentalProviderNetworkID","values":[{"attributeName":"DentalProviderNetworkIDs","description":"Filter Dental Provider Network ID","attributeValue":["BCBSWYOMING","N4"]}]}]
+
+2026-02-06 11:02:31|[https-jsse-nio-0.0.0.0-28443-exec-199]|DEBUG|o.g.jersey.logging.LoggingFeature|5285f08d-a955-46b5-b822-1f4dccdfd0ff|||||192799 * Server has received a request on thread https-jsse-nio-0.0.0.0-28443-exec-199
+192799 > GET https://pem04wuapp01g.tzf.cognizant.com/v1/provider/config?name=QuickViewTilesShowLimit%2CQuickViewTilesShow
+192799 > accept: application/json
+192799 > accept-encoding: gzip, deflate, br, zstd
+192799 > accept-language: en-US,en;q=0.9
+192799 > authorization: Bearer bd0f1ca7-db24-418d-8388-64fe244163e1
+192799 > connection: Keep-Alive
+192799 > content-length: 0
+192799 > cookie: __utmz=179328244.1768130144.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); org.gluu.i18n.Locale=en; __utmc=179328244; session_state=3dbd4860b6501313d667899a222f2b57d311250adeef72293157ac5358e0d838.1fdc2557-bd07-45de-bd11-715ac5e214ad; opbs=2a08861c-8141-4df9-85b7-f9828f612e48; current_sessions=["898a1664-780f-4e0a-9d08-e2564b759e2f"]; session_id=898a1664-780f-4e0a-9d08-e2564b759e2f; _ga_5JVVJ335T9=GS2.1.s1770375738$o13$g0$t1770375738$j60$l0$h0; _ga=GA1.2.1936418398.1768130142; _gid=GA1.2.1162181227.1770375739; _gat_gtag_UA_92105184_2=1; _gat_UA-92105184-1=1; __utma=179328244.1936418398.1768130142.1770282058.1770375740.13; __utmt_UA-92105184-2=1; __utmt_UA-92105184-3=1; __utmb=179328244.2.10.1770375740; _ga_J1975LPX58=GS2.2.s1770375740$o10$g0$t1770375740$j60$l0$h0; _dd_s=rum=2&id=f8b00567-ceec-4a31-92b7-4e94249b74cc&created=1770375739007&expire=1770376650223
+192799 > host: pem04wuapp01g.tzf.cognizant.com:28443
+192799 > referer: https://ah.healthtranzform.com/tzf/provider/uiprovider/
+192799 > sec-ch-ua: "Not(A:Brand";v="8", "Chromium";v="144", "Google Chrome";v="144"
+192799 > sec-ch-ua-mobile: ?0
+192799 > sec-ch-ua-platform: "Windows"
+192799 > sec-fetch-dest: empty
+192799 > sec-fetch-mode: cors
+192799 > sec-fetch-site: same-origin
+192799 > traceparent: 00-6985ca4700000000302221de5a8fcc8a-5f1d0a8af52ed528-00
+192799 > tracestate: dd=s:-1;t.tid:6985ca4700000000
+192799 > user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+192799 > x-client-context-info: {"tzfrolecategory":"PROVIDER","tzftenanttimezone":"PST8PDT","tzftenanttimeformat":"MM/dd/yyyy HH:mm:ss","roleCategory":"[PROVIDER]","tzftenantdateformat":"MM/dd/yyyy","userType":"PROVIDER"}
+192799 > x-client-id: provider
+192799 > x-datadog-parent-id: 6853645799863014696
+192799 > x-datadog-sampling-priority: -1
+192799 > x-datadog-tags: _dd.p.tid=6985ca4700000000
+192799 > x-datadog-trace-id: 3468371901914533002
+192799 > x-domain-name: ah.healthtranzform.com
+192799 > x-forwarded-host: ah.healthtranzform.com,ah.healthtranzform.com
+192799 > x-forwarded-port: 443,443
+192799 > x-forwarded-prefix: /tzf/provider/service/provider-controller
+192799 > x-forwarded-proto: https,https
+192799 > x-header-06: en-US
+192799 > x-remote-addr: 143.244.47.59
+192799 > x-user-context-info: {"sub":"Hv1iwL3KsahBYbZrw3zqAH1f81lvX2teDt1raEzjnsc","tzfinternaluserid":"EP20251117185249066","tzflocaleid":"en-US","tzfclientipaddress":"143.244.47.59","tzftenantid":"ahw","tzfcommonid":"EP20251117185249066","tzfpasswordhistory":["9d272fdb150ec97b26d5272fbf8afaef0a48f44525755fd5304ae1276212f4af"],"tzfproviderid":"EP20251117185249066","tzfforusername":"LROBERSON","tzfcorelationid":"98d19143-b7fe-4d72-80df-0278a4a6262b","tzfroles":"OfficeManager","tzfusertype":["PROVIDER"],"tzfusername":"LROBERSON","tzfuserstatus":"active","tzftenantuuid":"bd60382e-c2aa-11e9-9cb5-2a2ae2dbcce4"}
+192799 > x-user-name: LROBERSON
+
+2026-02-06 11:02:31|[https-jsse-nio-0.0.0.0-28443-exec-199]|DEBUG|c.c.t.f.m.c.utils.SpringContext|98d19143-b7fe-4d72-80df-0278a4a6262b|provider-controller|provider|ahw|LROBERSON/LROBERSON|4538895599824091833|NA|NA|NA|URI - v1/provider/config called by LROBERSON:143.244.47.59 for LROBERSONwith authorities  OfficeManager
+2026-02-06 11:02:31|[https-jsse-nio-0.0.0.0-28443-exec-195]|INFO |c.c.t.p.m.p.s.AdditionalLinksSVCImpl|c6453db6-3833-4c20-819c-125372fa047d|provider-controller|provider|ahw|LROBERSON/LROBERSON|getMostVisitedQuickLinks for epEnrollmentId: EP20251117185249066
+2026-02-06 11:02:31|[https-jsse-nio-0.0.0.0-28443-exec-195]|DEBUG|c.c.t.p.m.p.g.r.q.QuickLinksEP|c6453db6-3833-4c20-819c-125372fa047d|provider-controller|provider|ahw|LROBERSON/LROBERSON|[QuickLinksEP#getMemberQuickLinksDetails] ---> GET http://quicklinks-web/quicklinks HTTP/1.1
+2026-02-06 11:02:31|[https-jsse-nio-0.0.0.0-28443-exec-195]|DEBUG|c.c.t.p.m.p.g.r.q.QuickLinksEP|c6453db6-3833-4c20-819c-125372fa047d|provider-controller|provider|ahw|LROBERSON/LROBERSON|[QuickLinksEP#getMemberQuickLinksDetails] x-client-context-info: {"tzfrolecategory":"PROVIDER","tzftenanttimezone":"PST8PDT","tzftenanttimeformat":"MM/dd/yyyy HH:mm:ss","roleCategory":"[PROVIDER]","tzftenantdateformat":"MM/dd/yyyy","userType":"PROVIDER"}
+2026-02-06 11:02:31|[https-jsse-nio-0.0.0.0-28443-exec-195]|DEBUG|c.c.t.p.m.p.g.r.q.QuickLinksEP|c6453db6-3833-4c20-819c-125372fa047d|provider-controller|provider|ahw|LROBERSON/LROBERSON|[QuickLinksEP#getMemberQuickLinksDetails] x-client-id: provider
+2026-02-06 11:02:31|[https-jsse-nio-0.0.0.0-28443-exec-195]|DEBUG|c.c.t.p.m.p.g.r.q.QuickLinksEP|c6453db6-3833-4c20-819c-125372fa047d|provider-controller|provider|ahw|LROBERSON/LROBERSON|[QuickLinksEP#getMemberQuickLinksDetails] x-header-06: en-US
+2026-02-06 11:02:31|[https-jsse-nio-0.0.0.0-28443-exec-195]|DEBUG|c.c.t.p.m.p.g.r.q.QuickLinksEP|c6453db6-3833-4c20-819c-125372fa047d|provider-controller|provider|ahw|LROBERSON/LROBERSON|[QuickLinksEP#getMemberQuickLinksDetails] x-user-context-info: {"sub":"Hv1iwL3KsahBYbZrw3zqAH1f81lvX2teDt1raEzjnsc","tzfinternaluserid":"EP20251117185249066","tzflocaleid":"en-US","tzfclientipaddress":"143.244.47.59","tzftenantid":"ahw","tzfcommonid":"EP20251117185249066","tzfpasswordhistory":["9d272fdb150ec97b26d5272fbf8afaef0a48f44525755fd5304ae1276212f4af"],"tzfproviderid":"EP20251117185249066","tzfforusername":"LROBERSON","tzfcorelationid":"c6453db6-3833-4c20-819c-125372fa047d","tzfroles":"OfficeManager","tzfusertype":["PROVIDER"],"tzfusername":"LROBERSON","tzfuserstatus":"active","tzftenantuuid":"bd60382e-c2aa-11e9-9cb5-2a2ae2dbcce4"}
+2026-02-06 11:02:31|[https-jsse-nio-0.0.0.0-28443-exec-195]|DEBUG|c.c.t.p.m.p.g.r.q.QuickLinksEP|c6453db6-3833-4c20-819c-125372fa047d|provider-controller|provider|ahw|LROBERSON/LROBERSON|[QuickLinksEP#getMemberQuickLinksDetails] x-user-name: LROBERSON
+2026-02-06 11:02:31|[https-jsse-nio-0.0.0.0-28443-exec-195]|DEBUG|c.c.t.p.m.p.g.r.q.QuickLinksEP|c6453db6-3833-4c20-819c-125372fa047d|provider-controller|provider|ahw|LROBERSON/LROBERSON|[QuickLinksEP#getMemberQuickLinksDetails] ---> END HTTP (0-byte body)
+2026-02-06 11:02:31|[https-jsse-nio-0.0.0.0-28443-exec-199]|DEBUG|o.s.data.mongodb.core.MongoTemplate|98d19143-b7fe-4d72-80df-0278a4a6262b|provider-controller|provider|ahw|LROBERSON/LROBERSON|find using query: { "attributes.tenantId" : "ahw", "attributes.name" : { "$in" : ["QuickViewTilesShowLimit", "QuickViewTilesShow"]}} fields: Document{{attributes.values=1, attributes.name=1}} for class: class com.cognizant.tranzform.provider.ms.providercontroller.domain.TenantConfiguration in collection: TenantConfiguration
+2026-02-06 11:02:31|[https-jsse-nio-0.0.0.0-28443-exec-199]|DEBUG|o.g.jersey.logging.LoggingFeature|98d19143-b7fe-4d72-80df-0278a4a6262b|||||192799 * Server responded with a response on thread https-jsse-nio-0.0.0.0-28443-exec-199
+192799 < 200
+192799 < Content-Type: application/json
+[{"name":"QuickViewTilesShow","values":[{"attributeName":"Claims","attributeValue":["Pending","Received","Finalized"]},{"attributeName":"Dashboard","attributeValue":["Pending","Received","Finalized"]}]},{"name":"QuickViewTilesShowLimit","values":[{"attributeName":"limit","attributeValue":"250"}]}]
+
+2026-02-06 11:02:31|[https-jsse-nio-0.0.0.0-28443-exec-195]|DEBUG|c.c.t.p.m.p.g.r.q.QuickLinksEP|c6453db6-3833-4c20-819c-125372fa047d|provider-controller|provider|ahw|LROBERSON/LROBERSON|[QuickLinksEP#getMemberQuickLinksDetails] <--- HTTP/1.1 200 (627ms)
+2026-02-06 11:02:31|[https-jsse-nio-0.0.0.0-28443-exec-195]|DEBUG|c.c.t.p.m.p.g.r.q.QuickLinksEP|c6453db6-3833-4c20-819c-125372fa047d|provider-controller|provider|ahw|LROBERSON/LROBERSON|[QuickLinksEP#getMemberQuickLinksDetails] connection: keep-alive
+2026-02-06 11:02:31|[https-jsse-nio-0.0.0.0-28443-exec-195]|DEBUG|c.c.t.p.m.p.g.r.q.QuickLinksEP|c6453db6-3833-4c20-819c-125372fa047d|provider-controller|provider|ahw|LROBERSON/LROBERSON|[QuickLinksEP#getMemberQuickLinksDetails] content-length: 309
+2026-02-06 11:02:31|[https-jsse-nio-0.0.0.0-28443-exec-195]|DEBUG|c.c.t.p.m.p.g.r.q.QuickLinksEP|c6453db6-3833-4c20-819c-125372fa047d|provider-controller|provider|ahw|LROBERSON/LROBERSON|[QuickLinksEP#getMemberQuickLinksDetails] content-type: application/json
+2026-02-06 11:02:31|[https-jsse-nio-0.0.0.0-28443-exec-195]|DEBUG|c.c.t.p.m.p.g.r.q.QuickLinksEP|c6453db6-3833-4c20-819c-125372fa047d|provider-controller|provider|ahw|LROBERSON/LROBERSON|[QuickLinksEP#getMemberQuickLinksDetails] correlationid: c6453db6-3833-4c20-819c-125372fa047d
+2026-02-06 11:02:31|[https-jsse-nio-0.0.0.0-28443-exec-195]|DEBUG|c.c.t.p.m.p.g.r.q.QuickLinksEP|c6453db6-3833-4c20-819c-125372fa047d|provider-controller|provider|ahw|LROBERSON/LROBERSON|[QuickLinksEP#getMemberQuickLinksDetails] date: Fri, 06 Feb 2026 11:02:31 GMT
+2026-02-06 11:02:31|[https-jsse-nio-0.0.0.0-28443-exec-195]|DEBUG|c.c.t.p.m.p.g.r.q.QuickLinksEP|c6453db6-3833-4c20-819c-125372fa047d|provider-controller|provider|ahw|LROBERSON/LROBERSON|[QuickLinksEP#getMemberQuickLinksDetails] keep-alive: timeout=60
+2026-02-06 11:02:31|[https-jsse-nio-0.0.0.0-28443-exec-195]|DEBUG|c.c.t.p.m.p.g.r.q.QuickLinksEP|c6453db6-3833-4c20-819c-125372fa047d|provider-controller|provider|ahw|LROBERSON/LROBERSON|[QuickLinksEP#getMemberQuickLinksDetails] request-context: appId=cid-v1:981c064a-17fd-4154-be6f-88c2cd44f265
+2026-02-06 11:02:31|[https-jsse-nio-0.0.0.0-28443-exec-195]|DEBUG|c.c.t.p.m.p.g.r.q.QuickLinksEP|c6453db6-3833-4c20-819c-125372fa047d|provider-controller|provider|ahw|LROBERSON/LROBERSON|[QuickLinksEP#getMemberQuickLinksDetails]
+2026-02-06 11:02:31|[https-jsse-nio-0.0.0.0-28443-exec-195]|DEBUG|c.c.t.p.m.p.g.r.q.QuickLinksEP|c6453db6-3833-4c20-819c-125372fa047d|provider-controller|provider|ahw|LROBERSON/LROBERSON|[QuickLinksEP#getMemberQuickLinksDetails] [{"themeId":"WELLNESS AND EDUCATION","themeName":"WELLNESS & EDUCATION","quickLinks":[{"quickLinkId":"QLK0331202010006","name":"Provider Education Website","url":"https://wiki.ucern.com/display/AHSWCA/Adventist+Health+ECoach","type":"static","application":"PROVIDER","businessRules":[],"qualifiedUrl":true}]}]
+2026-02-06 11:02:31|[https-jsse-nio-0.0.0.0-28443-exec-195]|DEBUG|c.c.t.p.m.p.g.r.q.QuickLinksEP|c6453db6-3833-4c20-819c-125372fa047d|provider-controller|provider|ahw|LROBERSON/LROBERSON|[QuickLinksEP#getMemberQuickLinksDetails] <--- END HTTP (309-byte body)
+2026-02-06 11:02:31|[https-jsse-nio-0.0.0.0-28443-exec-195]|DEBUG|o.s.data.mongodb.core.MongoTemplate|c6453db6-3833-4c20-819c-125372fa047d|provider-controller|provider|ahw|LROBERSON/LROBERSON|findOne using query: { "epEnrollmentId" : "EP20251117185249066"} fields: Document{{}} for class: class com.cognizant.tranzform.provider.ms.providercontroller.dto.UserPreferenceView in collection: UserPreferenceView
+2026-02-06 11:02:31|[https-jsse-nio-0.0.0.0-28443-exec-195]|INFO |c.c.t.p.m.p.s.AdditionalLinksSVCImpl|c6453db6-3833-4c20-819c-125372fa047d|provider-controller|provider|ahw|LROBERSON/LROBERSON|totalThemes: 1 totalQuickLinkUrls: 1 totalUserAdditionalLinks: 0
+2026-02-06 11:02:31|[https-jsse-nio-0.0.0.0-28443-exec-195]|INFO |c.c.t.p.m.p.s.AdditionalLinksSVCImpl|c6453db6-3833-4c20-819c-125372fa047d|provider-controller|provider|ahw|LROBERSON/LROBERSON|user has less than 6 saved linkInfo so continue adding
+2026-02-06 11:02:31|[https-jsse-nio-0.0.0.0-28443-exec-195]|INFO |c.c.t.p.m.p.s.AdditionalLinksSVCImpl|c6453db6-3833-4c20-819c-125372fa047d|provider-controller|provider|ahw|LROBERSON/LROBERSON|themeId: WELLNESS AND EDUCATION # of quickLinks: 1
+2026-02-06 11:02:31|[https-jsse-nio-0.0.0.0-28443-exec-195]|INFO |c.c.t.p.m.p.s.AdditionalLinksSVCImpl|c6453db6-3833-4c20-819c-125372fa047d|provider-controller|provider|ahw|LROBERSON/LROBERSON|mostVisitedQuickLinks: 0 theme count: 1 leftToProcess: 1
+2026-02-06 11:02:31|[https-jsse-nio-0.0.0.0-28443-exec-195]|INFO |c.c.t.p.m.p.s.AdditionalLinksSVCImpl|c6453db6-3833-4c20-819c-125372fa047d|provider-controller|provider|ahw|LROBERSON/LROBERSON|add link id: QLK0331202010006
+2026-02-06 11:02:31|[https-jsse-nio-0.0.0.0-28443-exec-195]|DEBUG|o.g.jersey.logging.LoggingFeature|c6453db6-3833-4c20-819c-125372fa047d|||||192798 * Server responded with a response on thread https-jsse-nio-0.0.0.0-28443-exec-195
+192798 < 200
+192798 < Content-Type: application/json
+[{"quickLinkId":"QLK0331202010006","name":"Provider Education Website","url":"https://wiki.ucern.com/display/AHSWCA/Adventist+Health+ECoach","type":"static","businessRules":null,"qualifiedUrl":true}]
+
+2026-02-06 11:02:34|[https-jsse-nio-0.0.0.0-28443-exec-192]|DEBUG|o.g.jersey.logging.LoggingFeature|840682c2-0ac5-4248-b3ad-96f2800f44a8|||||192800 * Server has received a request on thread https-jsse-nio-0.0.0.0-28443-exec-192
+192800 > GET https://pem04wuapp01g.tzf.cognizant.com/v1/claimstatus/count?claimstatus=Received&drvcmd=dashboardQuickView&daterange=7
+192800 > accept: application/json
+192800 > accept-encoding: gzip, deflate, br, zstd
+192800 > accept-language: en-US,en;q=0.9
+192800 > authorization: Bearer bd0f1ca7-db24-418d-8388-64fe244163e1
+192800 > connection: Keep-Alive
+192800 > content-length: 0
+192800 > cookie: __utmz=179328244.1768130144.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); org.gluu.i18n.Locale=en; __utmc=179328244; session_state=3dbd4860b6501313d667899a222f2b57d311250adeef72293157ac5358e0d838.1fdc2557-bd07-45de-bd11-715ac5e214ad; opbs=2a08861c-8141-4df9-85b7-f9828f612e48; current_sessions=["898a1664-780f-4e0a-9d08-e2564b759e2f"]; session_id=898a1664-780f-4e0a-9d08-e2564b759e2f; _ga_5JVVJ335T9=GS2.1.s1770375738$o13$g0$t1770375738$j60$l0$h0; _ga=GA1.2.1936418398.1768130142; _gid=GA1.2.1162181227.1770375739; _gat_gtag_UA_92105184_2=1; _gat_UA-92105184-1=1; __utma=179328244.1936418398.1768130142.1770282058.1770375740.13; __utmt_UA-92105184-2=1; __utmt_UA-92105184-3=1; __utmb=179328244.2.10.1770375740; _ga_J1975LPX58=GS2.2.s1770375740$o10$g0$t1770375740$j60$l0$h0; _dd_s=rum=2&id=f8b00567-ceec-4a31-92b7-4e94249b74cc&created=1770375739007&expire=1770376650223
+192800 > host: pem04wuapp01g.tzf.cognizant.com:28443
+192800 > referer: https://ah.healthtranzform.com/tzf/provider/uiprovider/
+192800 > sec-ch-ua: "Not(A:Brand";v="8", "Chromium";v="144", "Google Chrome";v="144"
+192800 > sec-ch-ua-mobile: ?0
+192800 > sec-ch-ua-platform: "Windows"
+192800 > sec-fetch-dest: empty
+192800 > sec-fetch-mode: cors
+192800 > sec-fetch-site: same-origin
+192800 > traceparent: 00-6985ca4a00000000382a75820af03609-08fdef6c2ca9cc24-01
+192800 > tracestate: dd=t.dm:-3;t.tid:6985ca4a00000000
+192800 > user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+192800 > x-client-context-info: {"tzfrolecategory":"PROVIDER","tzftenanttimezone":"PST8PDT","tzftenanttimeformat":"MM/dd/yyyy HH:mm:ss","roleCategory":"[PROVIDER]","tzftenantdateformat":"MM/dd/yyyy","userType":"PROVIDER"}
+192800 > x-client-id: provider
+192800 > x-datadog-parent-id: 647937169296051236
+192800 > x-datadog-sampling-priority: 2
+192800 > x-datadog-tags: _dd.p.dm=-3,_dd.p.tid=6985ca4a00000000
+192800 > x-datadog-trace-id: 4047176416535524873
+192800 > x-domain-name: ah.healthtranzform.com
+192800 > x-forwarded-host: ah.healthtranzform.com,ah.healthtranzform.com
+192800 > x-forwarded-port: 443,443
+192800 > x-forwarded-prefix: /tzf/provider/service/provider-controller
+192800 > x-forwarded-proto: https,https
+192800 > x-header-06: en-US
+192800 > x-remote-addr: 143.244.47.59
+192800 > x-user-context-info: {"sub":"Hv1iwL3KsahBYbZrw3zqAH1f81lvX2teDt1raEzjnsc","tzfinternaluserid":"EP20251117185249066","tzflocaleid":"en-US","tzfclientipaddress":"143.244.47.59","tzftenantid":"ahw","tzfcommonid":"EP20251117185249066","tzfpasswordhistory":["9d272fdb150ec97b26d5272fbf8afaef0a48f44525755fd5304ae1276212f4af"],"tzfproviderid":"EP20251117185249066","tzfforusername":"LROBERSON","tzfcorelationid":"bdad6cc2-87f3-4059-8d79-dfb59eeb41d1","tzfroles":"OfficeManager","tzfusertype":["PROVIDER"],"tzfusername":"LROBERSON","tzfuserstatus":"active","tzftenantuuid":"bd60382e-c2aa-11e9-9cb5-2a2ae2dbcce4"}
+192800 > x-user-name: LROBERSON
+
+2026-02-06 11:02:34|[https-jsse-nio-0.0.0.0-28443-exec-192]|DEBUG|c.c.t.f.m.c.utils.SpringContext|bdad6cc2-87f3-4059-8d79-dfb59eeb41d1|provider-controller|provider|ahw|LROBERSON/LROBERSON|6591235877418389539|NA|NA|NA|URI - v1/claimstatus/count called by LROBERSON:143.244.47.59 for LROBERSONwith authorities  OfficeManager
+2026-02-06 11:02:35|[https-jsse-nio-0.0.0.0-28443-exec-181]|DEBUG|o.g.jersey.logging.LoggingFeature|2451305c-849f-4438-a937-94909f9969a1|||||192801 * Server has received a request on thread https-jsse-nio-0.0.0.0-28443-exec-181
+192801 > GET https://pem04wuapp01g.tzf.cognizant.com/v1/claimstatus/count?claimstatus=Finalized&drvcmd=dashboardQuickView&daterange=7
+192801 > accept: application/json
+192801 > accept-encoding: gzip, deflate, br, zstd
+192801 > accept-language: en-US,en;q=0.9
+192801 > authorization: Bearer bd0f1ca7-db24-418d-8388-64fe244163e1
+192801 > connection: Keep-Alive
+192801 > content-length: 0
+192801 > cookie: __utmz=179328244.1768130144.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); org.gluu.i18n.Locale=en; __utmc=179328244; session_state=3dbd4860b6501313d667899a222f2b57d311250adeef72293157ac5358e0d838.1fdc2557-bd07-45de-bd11-715ac5e214ad; opbs=2a08861c-8141-4df9-85b7-f9828f612e48; current_sessions=["898a1664-780f-4e0a-9d08-e2564b759e2f"]; session_id=898a1664-780f-4e0a-9d08-e2564b759e2f; _ga_5JVVJ335T9=GS2.1.s1770375738$o13$g0$t1770375738$j60$l0$h0; _ga=GA1.2.1936418398.1768130142; _gid=GA1.2.1162181227.1770375739; _gat_gtag_UA_92105184_2=1; _gat_UA-92105184-1=1; __utma=179328244.1936418398.1768130142.1770282058.1770375740.13; __utmt_UA-92105184-2=1; __utmt_UA-92105184-3=1; __utmb=179328244.2.10.1770375740; _ga_J1975LPX58=GS2.2.s1770375740$o10$g0$t1770375740$j60$l0$h0; _dd_s=rum=2&id=f8b00567-ceec-4a31-92b7-4e94249b74cc&created=1770375739007&expire=1770376650223
+192801 > host: pem04wuapp01g.tzf.cognizant.com:28443
+192801 > referer: https://ah.healthtranzform.com/tzf/provider/uiprovider/
+192801 > sec-ch-ua: "Not(A:Brand";v="8", "Chromium";v="144", "Google Chrome";v="144"
+192801 > sec-ch-ua-mobile: ?0
+192801 > sec-ch-ua-platform: "Windows"
+192801 > sec-fetch-dest: empty
+192801 > sec-fetch-mode: cors
+192801 > sec-fetch-site: same-origin
+192801 > traceparent: 00-6985ca4b0000000025f0961be9ca80dc-3b52fbf05f6ac205-00
+192801 > tracestate: dd=s:-1;t.tid:6985ca4b00000000
+192801 > user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+192801 > x-client-context-info: {"tzfrolecategory":"PROVIDER","tzftenanttimezone":"PST8PDT","tzftenanttimeformat":"MM/dd/yyyy HH:mm:ss","roleCategory":"[PROVIDER]","tzftenantdateformat":"MM/dd/yyyy","userType":"PROVIDER"}
+192801 > x-client-id: provider
+192801 > x-datadog-parent-id: 4274756006139576837
+192801 > x-datadog-sampling-priority: -1
+192801 > x-datadog-tags: _dd.p.tid=6985ca4b00000000
+192801 > x-datadog-trace-id: 2733850020444537052
+192801 > x-domain-name: ah.healthtranzform.com
+192801 > x-forwarded-host: ah.healthtranzform.com,ah.healthtranzform.com
+192801 > x-forwarded-port: 443,443
+192801 > x-forwarded-prefix: /tzf/provider/service/provider-controller
+192801 > x-forwarded-proto: https,https
+192801 > x-header-06: en-US
+192801 > x-remote-addr: 143.244.47.59
+192801 > x-user-context-info: {"sub":"Hv1iwL3KsahBYbZrw3zqAH1f81lvX2teDt1raEzjnsc","tzfinternaluserid":"EP20251117185249066","tzflocaleid":"en-US","tzfclientipaddress":"143.244.47.59","tzftenantid":"ahw","tzfcommonid":"EP20251117185249066","tzfpasswordhistory":["9d272fdb150ec97b26d5272fbf8afaef0a48f44525755fd5304ae1276212f4af"],"tzfproviderid":"EP20251117185249066","tzfforusername":"LROBERSON","tzfcorelationid":"546843f6-fb1c-4faa-8c9e-1b4688e26a57","tzfroles":"OfficeManager","tzfusertype":["PROVIDER"],"tzfusername":"LROBERSON","tzfuserstatus":"active","tzftenantuuid":"bd60382e-c2aa-11e9-9cb5-2a2ae2dbcce4"}
+192801 > x-user-name: LROBERSON
+
+2026-02-06 11:02:35|[https-jsse-nio-0.0.0.0-28443-exec-181]|DEBUG|c.c.t.f.m.c.utils.SpringContext|546843f6-fb1c-4faa-8c9e-1b4688e26a57|provider-controller|provider|ahw|LROBERSON/LROBERSON|2262296794975829891|NA|NA|NA|URI - v1/claimstatus/count called by LROBERSON:143.244.47.59 for LROBERSONwith authorities  OfficeManager
+2026-02-06 11:02:35|[https-jsse-nio-0.0.0.0-28443-exec-192]|INFO |c.c.t.p.m.p.service.QuickViewSVC|bdad6cc2-87f3-4059-8d79-dfb59eeb41d1|provider-controller|provider|ahw|LROBERSON/LROBERSON|Claim Status count based on UI selection dateRange===> 7
+2026-02-06 11:02:35|[https-jsse-nio-0.0.0.0-28443-exec-192]|DEBUG|c.c.t.p.m.p.g.rest.claims.ClaimsEP|bdad6cc2-87f3-4059-8d79-dfb59eeb41d1|provider-controller|provider|ahw|LROBERSON/LROBERSON|[ClaimsEP#getClaimsCount] ---> POST http://msclaims/claimstatus/count HTTP/1.1
+2026-02-06 11:02:35|[https-jsse-nio-0.0.0.0-28443-exec-192]|DEBUG|c.c.t.p.m.p.g.rest.claims.ClaimsEP|bdad6cc2-87f3-4059-8d79-dfb59eeb41d1|provider-controller|provider|ahw|LROBERSON/LROBERSON|[ClaimsEP#getClaimsCount] Content-Length: 103
+2026-02-06 11:02:35|[https-jsse-nio-0.0.0.0-28443-exec-192]|DEBUG|c.c.t.p.m.p.g.rest.claims.ClaimsEP|bdad6cc2-87f3-4059-8d79-dfb59eeb41d1|provider-controller|provider|ahw|LROBERSON/LROBERSON|[ClaimsEP#getClaimsCount] Content-Type: application/json
+2026-02-06 11:02:35|[https-jsse-nio-0.0.0.0-28443-exec-192]|DEBUG|c.c.t.p.m.p.g.rest.claims.ClaimsEP|bdad6cc2-87f3-4059-8d79-dfb59eeb41d1|provider-controller|provider|ahw|LROBERSON/LROBERSON|[ClaimsEP#getClaimsCount] x-client-context-info: {"tzfrolecategory":"PROVIDER","tzftenanttimezone":"PST8PDT","tzftenanttimeformat":"MM/dd/yyyy HH:mm:ss","roleCategory":"[PROVIDER]","tzftenantdateformat":"MM/dd/yyyy","userType":"PROVIDER"}
+2026-02-06 11:02:35|[https-jsse-nio-0.0.0.0-28443-exec-192]|DEBUG|c.c.t.p.m.p.g.rest.claims.ClaimsEP|bdad6cc2-87f3-4059-8d79-dfb59eeb41d1|provider-controller|provider|ahw|LROBERSON/LROBERSON|[ClaimsEP#getClaimsCount] x-client-id: provider
+2026-02-06 11:02:35|[https-jsse-nio-0.0.0.0-28443-exec-192]|DEBUG|c.c.t.p.m.p.g.rest.claims.ClaimsEP|bdad6cc2-87f3-4059-8d79-dfb59eeb41d1|provider-controller|provider|ahw|LROBERSON/LROBERSON|[ClaimsEP#getClaimsCount] x-header-06: en-US
+2026-02-06 11:02:35|[https-jsse-nio-0.0.0.0-28443-exec-192]|DEBUG|c.c.t.p.m.p.g.rest.claims.ClaimsEP|bdad6cc2-87f3-4059-8d79-dfb59eeb41d1|provider-controller|provider|ahw|LROBERSON/LROBERSON|[ClaimsEP#getClaimsCount] x-user-context-info: {"sub":"Hv1iwL3KsahBYbZrw3zqAH1f81lvX2teDt1raEzjnsc","tzfinternaluserid":"EP20251117185249066","tzflocaleid":"en-US","tzfclientipaddress":"143.244.47.59","tzftenantid":"ahw","tzfcommonid":"EP20251117185249066","tzfpasswordhistory":["9d272fdb150ec97b26d5272fbf8afaef0a48f44525755fd5304ae1276212f4af"],"tzfproviderid":"EP20251117185249066","tzfforusername":"LROBERSON","tzfcorelationid":"bdad6cc2-87f3-4059-8d79-dfb59eeb41d1","tzfroles":"OfficeManager","tzfusertype":["PROVIDER"],"tzfusername":"LROBERSON","tzfuserstatus":"active","tzftenantuuid":"bd60382e-c2aa-11e9-9cb5-2a2ae2dbcce4"}
+2026-02-06 11:02:35|[https-jsse-nio-0.0.0.0-28443-exec-192]|DEBUG|c.c.t.p.m.p.g.rest.claims.ClaimsEP|bdad6cc2-87f3-4059-8d79-dfb59eeb41d1|provider-controller|provider|ahw|LROBERSON/LROBERSON|[ClaimsEP#getClaimsCount] x-user-name: LROBERSON
+2026-02-06 11:02:35|[https-jsse-nio-0.0.0.0-28443-exec-192]|DEBUG|c.c.t.p.m.p.g.rest.claims.ClaimsEP|bdad6cc2-87f3-4059-8d79-dfb59eeb41d1|provider-controller|provider|ahw|LROBERSON/LROBERSON|[ClaimsEP#getClaimsCount]
+2026-02-06 11:02:35|[https-jsse-nio-0.0.0.0-28443-exec-192]|DEBUG|c.c.t.p.m.p.g.rest.claims.ClaimsEP|bdad6cc2-87f3-4059-8d79-dfb59eeb41d1|provider-controller|provider|ahw|LROBERSON/LROBERSON|[ClaimsEP#getClaimsCount] {"searchData":[{"claimStatus":"Received","serviceFromDate":"01/30/2026","serviceToDate":"02/06/2026"}]}
+2026-02-06 11:02:35|[https-jsse-nio-0.0.0.0-28443-exec-192]|DEBUG|c.c.t.p.m.p.g.rest.claims.ClaimsEP|bdad6cc2-87f3-4059-8d79-dfb59eeb41d1|provider-controller|provider|ahw|LROBERSON/LROBERSON|[ClaimsEP#getClaimsCount] ---> END HTTP (103-byte body)
+2026-02-06 11:02:36|[https-jsse-nio-0.0.0.0-28443-exec-181]|INFO |c.c.t.p.m.p.service.QuickViewSVC|546843f6-fb1c-4faa-8c9e-1b4688e26a57|provider-controller|provider|ahw|LROBERSON/LROBERSON|Claim Status count based on UI selection dateRange===> 7
+2026-02-06 11:02:36|[https-jsse-nio-0.0.0.0-28443-exec-181]|DEBUG|c.c.t.p.m.p.g.rest.claims.ClaimsEP|546843f6-fb1c-4faa-8c9e-1b4688e26a57|provider-controller|provider|ahw|LROBERSON/LROBERSON|[ClaimsEP#getClaimsCount] ---> POST http://msclaims/claimstatus/count HTTP/1.1
+2026-02-06 11:02:36|[https-jsse-nio-0.0.0.0-28443-exec-181]|DEBUG|c.c.t.p.m.p.g.rest.claims.ClaimsEP|546843f6-fb1c-4faa-8c9e-1b4688e26a57|provider-controller|provider|ahw|LROBERSON/LROBERSON|[ClaimsEP#getClaimsCount] Content-Length: 104
+2026-02-06 11:02:36|[https-jsse-nio-0.0.0.0-28443-exec-181]|DEBUG|c.c.t.p.m.p.g.rest.claims.ClaimsEP|546843f6-fb1c-4faa-8c9e-1b4688e26a57|provider-controller|provider|ahw|LROBERSON/LROBERSON|[ClaimsEP#getClaimsCount] Content-Type: application/json
+2026-02-06 11:02:36|[https-jsse-nio-0.0.0.0-28443-exec-181]|DEBUG|c.c.t.p.m.p.g.rest.claims.ClaimsEP|546843f6-fb1c-4faa-8c9e-1b4688e26a57|provider-controller|provider|ahw|LROBERSON/LROBERSON|[ClaimsEP#getClaimsCount] x-client-context-info: {"tzfrolecategory":"PROVIDER","tzftenanttimezone":"PST8PDT","tzftenanttimeformat":"MM/dd/yyyy HH:mm:ss","roleCategory":"[PROVIDER]","tzftenantdateformat":"MM/dd/yyyy","userType":"PROVIDER"}
+2026-02-06 11:02:36|[https-jsse-nio-0.0.0.0-28443-exec-181]|DEBUG|c.c.t.p.m.p.g.rest.claims.ClaimsEP|546843f6-fb1c-4faa-8c9e-1b4688e26a57|provider-controller|provider|ahw|LROBERSON/LROBERSON|[ClaimsEP#getClaimsCount] x-client-id: provider
+2026-02-06 11:02:36|[https-jsse-nio-0.0.0.0-28443-exec-181]|DEBUG|c.c.t.p.m.p.g.rest.claims.ClaimsEP|546843f6-fb1c-4faa-8c9e-1b4688e26a57|provider-controller|provider|ahw|LROBERSON/LROBERSON|[ClaimsEP#getClaimsCount] x-header-06: en-US
+2026-02-06 11:02:36|[https-jsse-nio-0.0.0.0-28443-exec-181]|DEBUG|c.c.t.p.m.p.g.rest.claims.ClaimsEP|546843f6-fb1c-4faa-8c9e-1b4688e26a57|provider-controller|provider|ahw|LROBERSON/LROBERSON|[ClaimsEP#getClaimsCount] x-user-context-info: {"sub":"Hv1iwL3KsahBYbZrw3zqAH1f81lvX2teDt1raEzjnsc","tzfinternaluserid":"EP20251117185249066","tzflocaleid":"en-US","tzfclientipaddress":"143.244.47.59","tzftenantid":"ahw","tzfcommonid":"EP20251117185249066","tzfpasswordhistory":["9d272fdb150ec97b26d5272fbf8afaef0a48f44525755fd5304ae1276212f4af"],"tzfproviderid":"EP20251117185249066","tzfforusername":"LROBERSON","tzfcorelationid":"546843f6-fb1c-4faa-8c9e-1b4688e26a57","tzfroles":"OfficeManager","tzfusertype":["PROVIDER"],"tzfusername":"LROBERSON","tzfuserstatus":"active","tzftenantuuid":"bd60382e-c2aa-11e9-9cb5-2a2ae2dbcce4"}
+2026-02-06 11:02:36|[https-jsse-nio-0.0.0.0-28443-exec-181]|DEBUG|c.c.t.p.m.p.g.rest.claims.ClaimsEP|546843f6-fb1c-4faa-8c9e-1b4688e26a57|provider-controller|provider|ahw|LROBERSON/LROBERSON|[ClaimsEP#getClaimsCount] x-user-name: LROBERSON
+2026-02-06 11:02:36|[https-jsse-nio-0.0.0.0-28443-exec-181]|DEBUG|c.c.t.p.m.p.g.rest.claims.ClaimsEP|546843f6-fb1c-4faa-8c9e-1b4688e26a57|provider-controller|provider|ahw|LROBERSON/LROBERSON|[ClaimsEP#getClaimsCount]
+2026-02-06 11:02:36|[https-jsse-nio-0.0.0.0-28443-exec-181]|DEBUG|c.c.t.p.m.p.g.rest.claims.ClaimsEP|546843f6-fb1c-4faa-8c9e-1b4688e26a57|provider-controller|provider|ahw|LROBERSON/LROBERSON|[ClaimsEP#getClaimsCount] {"searchData":[{"claimStatus":"Finalized","serviceFromDate":"01/30/2026","serviceToDate":"02/06/2026"}]}
+2026-02-06 11:02:36|[https-jsse-nio-0.0.0.0-28443-exec-181]|DEBUG|c.c.t.p.m.p.g.rest.claims.ClaimsEP|546843f6-fb1c-4faa-8c9e-1b4688e26a57|provider-controller|provider|ahw|LROBERSON/LROBERSON|[ClaimsEP#getClaimsCount] ---> END HTTP (104-byte body)
+2026-02-06 11:02:38|[https-jsse-nio-0.0.0.0-28443-exec-190]|DEBUG|c.c.t.p.m.p.g.r.p.PatientSearchEP|c1a9e9a2-2e5e-4694-a857-c4693150013a|provider-controller|provider|ahw|User7@ahw.com/Keerthana2103|[PatientSearchEP#getMemberDetailsV2] <--- HTTP/1.1 200 (8110ms)
+2026-02-06 11:02:38|[https-jsse-nio-0.0.0.0-28443-exec-190]|DEBUG|c.c.t.p.m.p.g.r.p.PatientSearchEP|c1a9e9a2-2e5e-4694-a857-c4693150013a|provider-controller|provider|ahw|User7@ahw.com/Keerthana2103|[PatientSearchEP#getMemberDetailsV2] connection: keep-alive
+2026-02-06 11:02:38|[https-jsse-nio-0.0.0.0-28443-exec-190]|DEBUG|c.c.t.p.m.p.g.r.p.PatientSearchEP|c1a9e9a2-2e5e-4694-a857-c4693150013a|provider-controller|provider|ahw|User7@ahw.com/Keerthana2103|[PatientSearchEP#getMemberDetailsV2] content-length: 1805
+2026-02-06 11:02:38|[https-jsse-nio-0.0.0.0-28443-exec-190]|DEBUG|c.c.t.p.m.p.g.r.p.PatientSearchEP|c1a9e9a2-2e5e-4694-a857-c4693150013a|provider-controller|provider|ahw|User7@ahw.com/Keerthana2103|[PatientSearchEP#getMemberDetailsV2] content-type: application/json
+2026-02-06 11:02:38|[https-jsse-nio-0.0.0.0-28443-exec-190]|DEBUG|c.c.t.p.m.p.g.r.p.PatientSearchEP|c1a9e9a2-2e5e-4694-a857-c4693150013a|provider-controller|provider|ahw|User7@ahw.com/Keerthana2103|[PatientSearchEP#getMemberDetailsV2] date: Fri, 06 Feb 2026 11:02:38 GMT
+2026-02-06 11:02:38|[https-jsse-nio-0.0.0.0-28443-exec-190]|DEBUG|c.c.t.p.m.p.g.r.p.PatientSearchEP|c1a9e9a2-2e5e-4694-a857-c4693150013a|provider-controller|provider|ahw|User7@ahw.com/Keerthana2103|[PatientSearchEP#getMemberDetailsV2] keep-alive: timeout=60
+2026-02-06 11:02:38|[https-jsse-nio-0.0.0.0-28443-exec-190]|DEBUG|c.c.t.p.m.p.g.r.p.PatientSearchEP|c1a9e9a2-2e5e-4694-a857-c4693150013a|provider-controller|provider|ahw|User7@ahw.com/Keerthana2103|[PatientSearchEP#getMemberDetailsV2] request-context: appId=cid-v1:981c064a-17fd-4154-be6f-88c2cd44f265
+2026-02-06 11:02:38|[https-jsse-nio-0.0.0.0-28443-exec-190]|DEBUG|c.c.t.p.m.p.g.r.p.PatientSearchEP|c1a9e9a2-2e5e-4694-a857-c4693150013a|provider-controller|provider|ahw|User7@ahw.com/Keerthana2103|[PatientSearchEP#getMemberDetailsV2]
+2026-02-06 11:02:38|[https-jsse-nio-0.0.0.0-28443-exec-190]|DEBUG|c.c.t.p.m.p.g.r.p.PatientSearchEP|c1a9e9a2-2e5e-4694-a857-c4693150013a|provider-controller|provider|ahw|User7@ahw.com/Keerthana2103|[PatientSearchEP#getMemberDetailsV2] {"memberDetails":{"tenantEnrollmentId":"MEM00001561225","memberId":"AHW00337102","subscriberId":"AHW003371","tenantEnrollmentIdOfSubscriber":"MEM00001130147","clientId":null,"lastName":"JERNIGAN","firstName":"SEAN R","middleName":null,"relationship":"Child","isStudent":"No","isHandicapped":"No","gender":"Male","genderIdentityId":null,"genderIdentityType":null,"genderIdentity":null,"sexualOrientationId":null,"sexualOrientation":null,"ethnicity":null,"race":null,"preferredPronoun":null,"age":"16","phone":null,"homePhone":null,"email":null,"dob":"11/07/2009","activeCoverageInd":null,"groupId":"SP00000000036","groupName":"013-ADVENTIST HEALTH CORPORATE OFFICE","medicaidRecertificationDate":null,"medicaidMemberType":null,"medicaidMemberBannerMessage":null,"isRestrictedRecipient":null,"additionalInsurance":null,"coverageInfo":[{"planId":"BPL00000000410","planName":"AH BENEFIT PLANS 2026","enrollId":"E000003234759","groupId":"SP00000000036","groupName":"013-ADVENTIST HEALTH CORPORATE OFFICE","networkName":null,"coverageStartDate":"01/01/2026","coverageEndDate":"11/30/2035","productCategory":"Medical","productId":"PGM0000000039","productType":"Medical","activeCoverageInd":"Yes","coverageTier":"Primary"},{"planId":"BPL00000000395","planName":"AH BENEFIT PLANS 2025","enrollId":"E000003184336","groupId":"SP00000000036","groupName":"013-ADVENTIST HEALTH CORPORATE OFFICE","networkName":null,"coverageStartDate":"05/01/2025","coverageEndDate":"12/31/2025","productCategory":"Medical","productId":"PGM0000000039","productType":"Medical","activeCoverageInd":"No","coverageTier":"Primary"}],"address":{"zipCode":"95610","country":"UNITED STATES","address1":"8183 LIN OAK WY","addressType":"Home","city":"CITRUS HEIGHTS","state":"CA","county":"SACRAMENTO"},"pcpDetails":null,"customAttributes":null}}
+2026-02-06 11:02:38|[https-jsse-nio-0.0.0.0-28443-exec-190]|DEBUG|c.c.t.p.m.p.g.r.p.PatientSearchEP|c1a9e9a2-2e5e-4694-a857-c4693150013a|provider-controller|provider|ahw|User7@ahw.com/Keerthana2103|[PatientSearchEP#getMemberDetailsV2] <--- END HTTP (1805-byte body)
+2026-02-06 11:02:38|[https-jsse-nio-0.0.0.0-28443-exec-190]|DEBUG|o.g.jersey.logging.LoggingFeature|c1a9e9a2-2e5e-4694-a857-c4693150013a|||||192796 * Server responded with a response on thread https-jsse-nio-0.0.0.0-28443-exec-190
+192796 < 200
+192796 < Content-Type: application/json
+{"attributes":{"memberInformation":{"memberDetails":{"tenantEnrollmentId":"MEM00001561225","memberId":"AHW00337102","subscriberId":"AHW003371","tenantEnrollmentIdOfSubscriber":"MEM00001130147","clientId":null,"lastName":"JERNIGAN","firstName":"SEAN R","middleName":null,"relationship":"Child","isStudent":"No","isHandicapped":"No","gender":"Male","genderIdentityId":null,"genderIdentityType":null,"genderIdentity":null,"sexualOrientationId":null,"sexualOrientation":null,"ethnicity":null,"race":null,"preferredPronoun":null,"age":"16","phone":null,"homePhone":null,"email":null,"dob":"11/07/2009","activeCoverageInd":null,"groupId":"SP00000000036","groupName":"013-ADVENTIST HEALTH CORPORATE OFFICE","medicaidRecertificationDate":null,"medicaidMemberType":null,"medicaidMemberBannerMessage":null,"isRestrictedRecipient":null,"additionalInsurance":null,"coverageInfo":[{"planId":"BPL00000000410","planName":"AH BENEFIT PLANS 2026","enrollId":"E000003234759","groupId":"SP00000000036","groupName":"013-ADVENTIST HEALTH CORPORATE OFFICE","networkName":null,"coverageStartDate":"01/01/2026","coverageEndDate":"11/30/2035","productCategory":"Medical","productId":"PGM0000000039","productType":"Medical","activeCoverageInd":"Yes","coverageTier":"Primary"}],"address":{"zipCode":"95610","country":"UNITED STATES","address1":"8183 LIN OAK WY","addressType":"Home","city":"CITRUS HEIGHTS","state":"CA","county":"SACRAMENTO"},"pcpDetails":null,"customAttributes":null}}},"id":null}
+
